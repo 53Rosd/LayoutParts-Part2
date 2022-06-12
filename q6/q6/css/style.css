@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+a{
+  text-decoration: none;
+}
+.header{
+  background: #388bff;
+  position: fixed;
+  width: 100%;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.site-logo a{
+  color:#f2ff7b;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navi-menu ul{
+  display: flex;
+}
+.navi-menu li{
+  padding: 0 30px;
+}
+.navi-menu a{
+  color:#ffffff;
+}
