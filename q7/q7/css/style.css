@@ -11,21 +11,18 @@
   background: #fad296;
   position: relative;
 }
-.content::before {
+.content::before,.content::after {
   content: "";
   position: absolute;
   top:100%;
   left: 25px;
   border: 25px solid transparent;
+}
+.content::before{
   border-top: 25px solid #8f5a0a;
 }
 .content::after{
-  content:"";
-  position: absolute;
-  top:100%;
-  left:25px;
   margin-top: -7px;
-  border: 25px solid transparent;
   border-top: 25px solid #fad296;
 }
 .text{
