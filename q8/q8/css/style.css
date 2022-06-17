@@ -19,3 +19,20 @@
   background-position: center;
   background-size: contain;
 }
+
+/*--------- ↓質問の回答 ----------*/
+.add-question-image{
+  height:500px
+}
+.add-question-image.q1{
+  background: url(../../image/coffee-background.jpg);
+}
+.add-question-image.q2{
+  background: url(../../image/coffee-background.jpg) no-repeat;
+}
+.add-question-image.q3{
+  background: url(../../image/coffee-background.jpg) no-repeat center/cover;
+}
+.add-question-image.q4{
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
+}
